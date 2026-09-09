@@ -1,7 +1,7 @@
 # With Grace connector
 
 Connect Claude or Codex to your With Grace records. Ask questions about
-properties, villas, buyers and market figures in the assistant you already use,
+projects, villas, buyers and campaigns in the assistant you already use,
 and let it update records for you.
 
 Nothing runs on your machine. The connector is hosted, so connecting is two
@@ -125,17 +125,18 @@ instructions.
 
 ## 3. Try it
 
-> What properties do I have, and how many units are in each?
+> What projects do I have, and how many villas are in each?
 
-> Which units are still available, and what do they cost?
+> Which villas are still available, and what do they cost?
 
 > Add a contact called Mira who asked about the two bedroom villas.
 
 ## What it can reach
 
-Your own records, and only those. Organizations, properties, units, contacts
-and market figures. Every request is authenticated by your token and scoped to
-the account that created it.
+Your own records, and only those. Organizations, projects, properties, contacts
+and ad campaigns. A project is a development; a property is an individual villa
+or lot with its own code, price, area and status. Every request is authenticated
+by your token and scoped to the account that created it.
 
 ## Managing access
 
